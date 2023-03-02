@@ -149,7 +149,8 @@
 
     .hide {
         display: none;
-        font-size: 20px;
+        font-size: 24px;
+        font-family: Snell Roundhand;
     }
 
     .Alimimage:hover + .hide {
