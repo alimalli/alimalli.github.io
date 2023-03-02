@@ -111,7 +111,13 @@
         text-decoration: overline;
     }
 
-    .main {
+    .mainsummary {
+        position: absolute;
+        top: 80px;
+        width: 100%;
+    }
+
+    .mainindex {
         position: absolute;
         top: 80px;
         width: 100%;
@@ -377,10 +383,16 @@
         text-decoration: overline;
     }
 
-    .main {
+    .mainsummary {
         position: absolute;
         top: 80px;
         width: 95%;
+    }
+
+    .mainindex {
+        position: absolute;
+        top: 80px;
+        width: 100%;
     }
 
     .bgimg {
