@@ -380,7 +380,7 @@
     .main {
         position: absolute;
         top: 85px;
-        width: 95%;
+        width: 90%;
     }
 
     .bgimg {
@@ -389,6 +389,7 @@
         background-position: center;
         background-repeat: no-repeat;
         height: 69vh;
+        width: 100vw;
     }
 
     .logos {
@@ -539,7 +540,7 @@
     }
     
     li {
-        font-size: 12px;
+        font-size: 0.5rem;
     }
 
     .column {
