@@ -59,20 +59,13 @@
 
     /* selector tag styles */
 
-    .container {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
     .split-color {
         display: flex; 
-        position: relative; 
+        position: fixed;
+        right: 0;
         width: 50%; 
         height: 100vh; 
         background-color: rgba(211, 211, 211, 0.5);
-        float: right;
     }
 
     #page-container {
@@ -129,7 +122,7 @@
         width: 100%;
         height: auto;
         padding: 2px 5px;
-        max-width: 200px;
+        max-width: 150px;
     }
 
     .currentlogo {
@@ -139,11 +132,11 @@
     }
 
     .Alimimage {
-        width: 50%;
+        width: 40%;
         height: auto;
         vertical-align: middle;
         border-radius: 50%;
-        margin: 40px;
+        margin: 10px;
     }
 
     .center {
@@ -334,13 +327,6 @@
 
     /* selector tag styles */
 
-    .container {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
     #page-container {
         position: relative;
         min-height: 100vh;
@@ -406,11 +392,12 @@
     }
 
     .Alimimage {
-        width: 50%;
+        width: 40%;
         height: auto;
         vertical-align: middle;
         border-radius: 50%;
         margin: 40px;
+        margin-right: 0px;
     }
 
     .center {
@@ -426,7 +413,7 @@
 
     .column3 {
         flex: 25%;
-        padding: 20px;
+        padding: 10px;
     }
 
     #logosrow1 {
@@ -540,12 +527,11 @@
     }
     
     li {
-        font-size: 0.5rem;
+        font-size: 0.75rem;
     }
 
     .column {
         flex: 100%;
-        padding: 20px;
         text-align: center;
     }
 }
