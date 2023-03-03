@@ -157,6 +157,10 @@
         display: block;
     }
 
+    .mobile {
+        display: none;
+    }
+
     .center {
         display: block;
         margin-left: auto;
@@ -410,7 +414,7 @@
     }
 
     .Alimimage {
-        width: 40%;
+        width: 30%;
         height: auto;
         vertical-align: middle;
         border-radius: 50%;
@@ -422,6 +426,10 @@
     .hide {
         display: none;
         font-size: 20px;
+    }
+
+    .desktop {
+        display: none;
     }
 
     .center {
