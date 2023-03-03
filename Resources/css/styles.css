@@ -360,6 +360,7 @@
         margin: 0;
         padding: 0rem 2rem;
         display: inline;
+        text-decoration: overline underline;
     }
 
     .name:hover {
