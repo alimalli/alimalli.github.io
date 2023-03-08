@@ -336,6 +336,14 @@
         padding-right: 20px;
     }
 
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
     h3 {
         font-size: 16px;
         line-height: 2;
@@ -549,7 +557,7 @@
     }
 
     .colorpanel {
-        flex-basis: 400px;
+        flex-basis: 300px;
         text-align: center;
         line-height: 2;
         margin: 1rem;
