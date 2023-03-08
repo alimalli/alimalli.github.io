@@ -498,6 +498,14 @@
         width: 100vw;
     }
 
+    .display-4 {
+        font-size: 24px;
+    }
+
+    .lead {
+        font-size: 16px;
+    }
+
     .logos {
         width: 100%;
         height: auto;
