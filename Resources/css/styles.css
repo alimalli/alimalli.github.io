@@ -480,6 +480,10 @@
         padding: 10px;
     }
 
+    .column3 > li {
+        font-size: 12px;
+    }
+
     #logosrow1 {
         align-items: center;
     }
