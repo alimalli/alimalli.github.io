@@ -50,6 +50,7 @@
         z-index: 10;
         background-color: #f5f5f5;
         line-height: 1.5;
+        font-size: 12px;
     }
 
     .footer:hover {
@@ -336,7 +337,7 @@
     }
 
     h3 {
-        font-size: 24px;
+        font-size: 16px;
         line-height: 2;
     }
 
@@ -351,7 +352,7 @@
     }
 
     li {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     footer {
@@ -361,8 +362,9 @@
         width: 100%;
         z-index: 10;
         background-color: #f5f5f5;
-        line-height: 2;
+        line-height: 1.5;
         margin-top: auto;
+        font-size: 12px;
     }
 
     .footer:hover {
@@ -478,10 +480,6 @@
     .column3 {
         flex: 33%;
         padding: 10px;
-    }
-
-    .column3 > li {
-        font-size: 12px;
     }
 
     #logosrow1 {
