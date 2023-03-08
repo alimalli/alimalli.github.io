@@ -110,6 +110,12 @@
         width: 100%;
     }
 
+    .mainpicture {
+        text-align: center; 
+        width: 100vw; 
+        height: 100%;
+    }
+
     .bgimg {
         background-image: url("./../particlebg.png");
         background-size: cover;
@@ -405,12 +411,18 @@
         width: 90%;
     }
 
+    .mainpicture {
+        text-align: center; 
+        width: 100vw; 
+        height: 100%;
+    }
+
     .bgimg {
         background-image: url("./../particlebg.png");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 69vh;
+        height: 80vh;
         width: 100vw;
     }
 
