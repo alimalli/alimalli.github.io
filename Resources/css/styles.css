@@ -1,6 +1,6 @@
-/* base tag styles */
-
 @media only screen and (min-width: 1024px){
+
+    /* base tag styles */
 
     body {
         background-color: #f5f5f5;
@@ -211,7 +211,7 @@
     }
 
     .fa:hover {
-        opacity: 0.5;
+        opacity: 0.75;
     }
 
     .fa-instagram {
@@ -311,6 +311,9 @@
 }
 
 @media only screen and (max-width: 1024px) {
+
+    /* base tag mobile styles */
+
     body {
         background-color: #f5f5f5;
         color: #222629;
@@ -367,7 +370,7 @@
         transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
     }
 
-    /* selector tag styles */
+    /* selector tag mobile styles */
 
     #page-container {
         position: relative;
@@ -496,7 +499,7 @@
     }
 
     .fa:hover {
-        opacity: 0.5;
+        opacity: 0.75;
     }
 
     .fa-instagram {
