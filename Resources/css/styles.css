@@ -303,6 +303,65 @@
         text-decoration: underline;
     }
 
+    .circlewrap {
+        align-items: center;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .circles {
+        height: 100vmin;
+        position: relative;
+        width: 100vmin;
+        text-align: center;
+    }
+    
+    .circles > div {
+        animation: growAndFade 3s infinite ease-out;
+        background-color: #3AAFA9;
+        border-radius: 50%;
+        height: 100%;
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+    }
+    
+    .circles .circle1 {
+        animation-delay: 0.5s;    
+    }
+
+    .circles .circle2 {
+        animation-delay: 1.5s; 
+    }
+
+    .circles .circle3 {
+        animation-delay: 2.5s;
+    }
+
+    @keyframes growAndFade {
+        0% {
+          opacity: .25;
+          transform: scale(0);
+        }
+        100% {
+          opacity: 0;
+          transform: scale(1);
+        }
+    }
+
+    .projectplaceholder {
+        display: flex;
+        text-align: center;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        color: #222629;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -597,5 +656,65 @@
     .column {
         flex: 100%;
         text-align: center;
+    }
+
+    .circlewrap {
+        align-items: center;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .circles {
+        height: 100vmin;
+        position: relative;
+        width: 100vmin;
+        text-align: center;
+    }
+
+    .circles > div {
+        animation: growAndFade 3s infinite ease-out;
+        background-color: #3AAFA9;
+        border-radius: 50%;
+        height: 100%;
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+    }
+    
+    .circles .circle1 {
+        animation-delay: 0.5s;    
+    }
+
+    .circles .circle2 {
+        animation-delay: 1.5s; 
+    }
+
+    .circles .circle3 {
+        animation-delay: 2.5s;
+    }
+
+    @keyframes growAndFade {
+        0% {
+          opacity: .25;
+          transform: scale(0);
+        }
+        100% {
+          opacity: 0;
+          transform: scale(1);
+        }
+    }
+
+    .projectplaceholder {
+        display: flex;
+        text-align: center;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        color: #222629;
     }
 }
