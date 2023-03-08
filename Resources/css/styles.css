@@ -237,13 +237,18 @@
         margin-top: 0.5em;
     }
 
+    #skills-container > *:hover {
+        opacity: 0.75;
+        transition: all 0.3s ease;
+    }
+
     .containerborder {
         padding: 1rem;
         border: 2px solid black;
         margin: 1rem;
     }
 
-    .colorcontainer {
+    .color-container {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
@@ -281,7 +286,7 @@
         color: white;
     }
 
-    .fontcontainer {
+    .font-container {
         display: flex;
     }
 
@@ -330,6 +335,10 @@
     ul {
         text-align: center;
         list-style-type: none;
+    }
+
+    li {
+        font-size: 16px;
     }
 
     footer {
@@ -498,7 +507,7 @@
     }
     
     #skills-container > * {
-        font-size: 3em;
+        font-size: 2em;
         width: 3em;
         margin-top: 0.5em;
     }
@@ -509,7 +518,7 @@
         margin: 1rem;
     }
 
-    .colorcontainer {
+    .color-container {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
@@ -547,7 +556,7 @@
         color: white;
     }
 
-    .fontcontainer {
+    .font-container {
         display: flex;
     }
 
@@ -557,10 +566,6 @@
 
     .fontname {
         text-decoration: underline;
-    }
-    
-    li {
-        font-size: 16px;
     }
 
     .column {
