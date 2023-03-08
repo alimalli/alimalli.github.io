@@ -128,14 +128,7 @@
     .logos {
         width: 100%;
         height: auto;
-        padding: 2px 5px;
         max-width: 150px;
-    }
-
-    .currentlogo {
-        width: 30%;
-        height: auto;
-        padding: 2px 5px;
     }
 
     .Alimimage {
@@ -187,7 +180,7 @@
 
     .column3 {
         flex: 33%;
-        padding: 20px;
+        padding: 12px;
     }
 
     #logosrow1 {
@@ -200,6 +193,7 @@
 
     #logosrow3 {
         align-items: center;
+        padding-top: 20px;
     }
 
     .fa {
