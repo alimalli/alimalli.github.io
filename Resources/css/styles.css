@@ -378,6 +378,7 @@
         font-family: 'Montserrat', sans-serif;
         overflow-x: hidden;
         position: relative;
+        border-bottom: 1px solid #222629;
     }
 
     nav {
@@ -431,7 +432,6 @@
         line-height: 1.5;
         margin-top: auto;
         font-size: 12px;
-        border-bottom: 1px solid #222629;
         padding-bottom: 0;
         margin-bottom: 0;
     }
