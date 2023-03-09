@@ -378,7 +378,6 @@
         font-family: 'Montserrat', sans-serif;
         overflow-x: hidden;
         position: relative;
-        border-bottom: 1px solid #222629;
     }
 
     nav {
@@ -433,7 +432,7 @@
         margin-top: auto;
         font-size: 12px;
         padding-bottom: 0;
-        margin-bottom: 0;
+        margin-bottom: -1px;
     }
 
     .footer:hover {
