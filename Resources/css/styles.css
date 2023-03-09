@@ -48,14 +48,16 @@
         bottom: 0;
         width: 100%;
         z-index: 10;
-        background-color: #f5f5f5;
-        line-height: 1.5;
+        background-color: #222629;
+        color: #DEF2F1;
+        line-height: 2;
         font-size: 12px;
     }
 
     .footer:hover {
-        background-color: #DEF2F1;
+        background-color: #2B7A78;
         transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+        cursor: pointer;
     }
 
     /* selector tag styles */
@@ -424,15 +426,17 @@
         bottom: 0;
         width: 100%;
         z-index: 10;
-        background-color: #f5f5f5;
+        background-color: #222629;
+        color: #DEF2F1;
         line-height: 1.5;
         margin-top: auto;
         font-size: 12px;
     }
 
     .footer:hover {
-        background-color: #DEF2F1;
+        background-color: #2B7A78;
         transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+        cursor: pointer;
     }
 
     /* selector tag mobile styles */
